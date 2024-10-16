@@ -1,0 +1,25 @@
+{
+    "mode": "debug",
+    "service_name": "task-gateway",
+    "http_port": 3000,
+    "db": {
+        "read": {
+            "host": "127.0.0.1",
+            "port": 5433,
+            "name": "task-gateway-db",
+            "user": "postgres",
+            "pass": "postgres",
+            "max_idle_time_in_minute": 60,
+            "enable_ssl_mode": false
+        },
+        "write": {
+            "host": "127.0.0.1",
+            "port": 5433,
+            "name": "task-gateway-db",
+            "user": "postgres",
+            "pass": "postgres",
+            "max_idle_time_in_minute": 60,
+            "enable_ssl_mode": false
+        }
+    }
+}
